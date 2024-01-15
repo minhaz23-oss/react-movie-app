@@ -1,7 +1,7 @@
 import './App.css';
 import React, { useState } from 'react'
 import Card from './components/Card';
-import { BrowserRouter,Routes,Route } from 'react-router-dom';
+import { HashRouter,Routes,Route } from 'react-router-dom';
 import CardDetails from './components/CardDetails';
 
 
@@ -39,7 +39,7 @@ const App = () => {
  
   return (
     <div>
- <BrowserRouter>
+ <HashRouter>
       <div className="container">
         <div className="nav">
             <h1>MovieFlex.</h1>
@@ -66,7 +66,7 @@ const App = () => {
         </Routes>
     
       </div>      
-      </BrowserRouter>
+      </HashRouter>
     </div>
   )
 }
