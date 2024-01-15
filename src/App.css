@@ -163,3 +163,31 @@ span{
     font-size: 14px;
   }
 }
+@media  (max-width: 450px) {
+  .nav h1{
+    font-size: 18px;
+  }
+  .nav input{
+    width: 100px;
+  }
+  .search-btn{
+    padding: 10px 15px;
+   
+  }
+  .content-box h1{ 
+    font-size: 25px;
+  }
+  span{
+    font-size: 14px;
+
+  }
+  .content-box p{
+    font-size: 12px;
+  }
+  .img-box img{
+    width: 120px; 
+  }
+  .wraper{
+    gap: 10px;
+  }
+}
