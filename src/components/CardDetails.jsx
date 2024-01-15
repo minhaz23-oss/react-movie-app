@@ -7,7 +7,7 @@ const CardDetails = () => {
   const [moveiDetails,setMovieDetails] = useState()
   useEffect(()=>{
      const fetchApi2 = async () => {
-        const fetchData2 = await fetch(`http://www.omdbapi.com/?i=${id}&apikey=18cd9fcc`);
+        const fetchData2 = await fetch(`https://www.omdbapi.com/?i=${id}&apikey=18cd9fcc`);
         const jsonData2 = await fetchData2.json();
         setMovieDetails(jsonData2)
      }

@@ -16,7 +16,7 @@ const App = () => {
 
     const fetchApi = async () => {
       try {
-        const fetchData = await fetch(`http://www.omdbapi.com/?s=${input}&apikey=18cd9fcc`);
+        const fetchData = await fetch(`https://www.omdbapi.com/?s=${input}&apikey=18cd9fcc`);
         const jsonData = await fetchData.json();
         
         if (jsonData.Search) {
